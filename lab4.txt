@@ -1,0 +1,8 @@
+1. https://github.com/aaronz1999/CMPUT404Lab4
+2. Django page saying: The install worked successfully! Congratulations!
+3. / shows 404 not found; /polls shows: Hello, world. You're at the polls index.
+4. Django migration stores changes to the models, it is useful when we need to apply those changes.
+5. Django adminstration page that you can add authentation and authorization, also polls; to get custom model appear, you need to press add button and then save them.
+6. You're looking at question 38; You're looking at the results of question 38; You're voting on question 38; using a string will return 404 not found; to allow strings, must remove <int:question_id> from urls.py
+7. Hardcoding urls makes difficult to adapt to changes
+8. The benefit of generic views is that we do not need to repeat redundant code in other views. However we should not use generic views when your view is very complex.
